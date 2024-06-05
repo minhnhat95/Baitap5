@@ -1,0 +1,95 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(101, 108, 133, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.modal .content {
+  width: 18rem;
+  height: fit-content;
+  padding: 1.5rem;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.content button {
+  background-color: red;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.content img {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 0.75rem;
+}
+
+div.content p.pokemon_id {
+  color: #919191;
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+div.content p.pokemon_name {
+  color: black;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0 1rem;
+}
+
+div.content div.pokemon_class_wrapper {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+div.content div.pokemon_class_wrapper span {
+  font-size: 1.25rem;
+  padding: 0.25rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.Grass {
+  background-color: #729f3f;
+  color: black;
+}
+
+.Fire {
+  background-color: #fd7d24;
+  color: white;
+}
+
+.Water {
+  background-color: #4592c4;
+  color: white;
+}
+
+.Bug {
+  background-color: #729f3f;
+  color: white;
+}
+
+.Flying {
+  background: linear-gradient(#3dc7ef 50%, #bdb9b8 50%);
+  color: black;
+}
+
+.Poison {
+  background-color: #b97fc9;
+  color: white;
+}

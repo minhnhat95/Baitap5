@@ -1,0 +1,79 @@
+div.card {
+  width: 18rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+div.card:hover {
+  cursor: pointer;
+  transform: translateY(-0.3125rem);
+}
+
+div.card img {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 0.75rem;
+}
+
+div.card p.pokemon_id {
+  color: #919191;
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+div.card p.pokemon_name {
+  color: black;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0 1rem;
+}
+
+div.card div.pokemon_class_wrapper {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+div.card div.pokemon_class_wrapper span {
+  font-size: 1.25rem;
+  padding: 0.25rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.Grass {
+  background-color: #729f3f;
+  color: black;
+}
+
+.Fire {
+  background-color: #fd7d24;
+  color: white;
+}
+
+.Water {
+  background-color: #4592c4;
+  color: white;
+}
+
+.Bug {
+  background-color: #729f3f;
+  color: white;
+}
+
+.Flying {
+  background: linear-gradient(#3dc7ef 50%, #bdb9b8 50%);
+  color: black;
+}
+
+.Poison {
+  background-color: #b97fc9;
+  color: white;
+}

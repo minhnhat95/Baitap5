@@ -1,0 +1,43 @@
+div.lightTree {
+  width: 15rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1rem solid black;
+  border-radius: 5rem;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+div.lightTree div.item {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 1rem solid black;
+  background-color: #95afc0;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+div.lightTree button {
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  padding: 0.25rem;
+  font-weight: bold;
+  background-color: #e67e22;
+}
