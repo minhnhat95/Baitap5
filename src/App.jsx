@@ -107,6 +107,17 @@ function App() {
         onClose={() => {
           setCrrData(null);
         }}
+        onChangePokemon={(pokemon) => {
+          setCrrData(pokemon);
+        }}
+        onSave={() => {
+          const index = pokData.findIndex((item) => item.id === crrData.id);
+          if (index > -1) {
+            pokData[index] = { ...pokData[index], ...crrData };
+            setPokData([...pokData]);
+            setCrrData(null);
+          }
+        }}
       />
     );
   }
